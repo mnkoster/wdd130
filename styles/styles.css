@@ -25,9 +25,7 @@ main {
     max-width: 500px;
 }
 
-p {
-    padding: 0;
-}
+p { padding: 0; }
 
 aside {
     width: 20rem;
