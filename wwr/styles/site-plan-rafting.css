@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&Open+Sans&display=swap');
 
 body {
     font-family: var(--paragraph-font);
