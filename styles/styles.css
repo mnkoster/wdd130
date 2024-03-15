@@ -35,20 +35,15 @@ main {
 p { padding: 0; }
 
 aside {
-    width: 20rem;
+    width: 20em;
     text-align: center;
     position: relative;
 }
 
 aside img {
+    top: 150px;
     width: 200px;
     height: auto;
-}
-
-aside h2 {
-    position: absolute;
-    top: 50px;
-    left: 150px;
 }
 
 footer {
@@ -65,4 +60,10 @@ footer {
     padding: 1rem;
     background-color: lightgrey;
     color: purple;
+}
+
+aside h2 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
