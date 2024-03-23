@@ -105,7 +105,7 @@ nav a:hover {
 .herodiv img {
     position: absolute;
     max-width: 50%;
-    height: auto;
+    height: 50%;
     opacity: 1.0;
     left: 25%;
     bottom: 30%;
@@ -114,15 +114,15 @@ nav a:hover {
 .hero h1 {
     position: absolute;
     width: 17%;
-    top: 5%;
+    top: 10%;
     left: 41.5%;
 }
 
 .herodiv p {
     position: absolute;
-    padding-left: 25%;
-    padding-right: 25%;
-    bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    top: 70%;
 }
 
 /* Footer */
@@ -134,6 +134,7 @@ footer {
     margin: 0 auto;
     justify-content: center;
     width: 100%;
+    font-size: 1rem;
 }
 
 .sociallinks img {
@@ -147,6 +148,7 @@ section {
     border: 1px solid black;
     margin-bottom: 10px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .grid {
@@ -156,15 +158,20 @@ section {
 
 .adventure {
     display: flex;
-    justify-content: space-between;
-    border: 1px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-.adventure img {
-    max-width: 18%;
+figure img {
+    padding-left: 2%;
+    width: 96%;
     height: auto;
+    aspect-ratio: 16 / 10;
+    order: 1;
 }
 
-.adventure h2 {
+figcaption {
+    order: 2;
     text-align: center;
 }
