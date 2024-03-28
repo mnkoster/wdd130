@@ -36,12 +36,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+    max-width: 100%;
     padding: 20px;
     background-color: var(--accent1-color);
-    display: flex;
+    display: grid;
     margin: 0 auto;
     justify-content: center;
-    max-width: 100%;
 }
 
 p {
@@ -130,20 +130,32 @@ nav a:hover {
 /* Footer */
 
 footer {
-    display: flex;
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
     padding: 20px;
     background-color: var(--accent1-color);
     margin: 0 auto;
-    justify-content: center;
+}
+
+.sociallinks {
+    display: grid;
+    align-items: right;
+    max-width: 100%;
+    grid-template-columns: 64% 12% 12% 12%;
+    justify-content: right;
 }
 
 .sociallinks img {
     float: right;
     position: relative;
+    justify-content: right;
 }
 
 .sociallinks p {
+    margin: 0;
     font-size: 1.3vw;
+    text-align: right;
 }
 
 /* Week 04 Updates */
@@ -156,7 +168,7 @@ section {
 }
 
 .grid {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 

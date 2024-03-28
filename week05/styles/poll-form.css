@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&Open+Sans&display=swap');
+
+* {
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 2vw;
+    text-align: center;
+}
+
+body {
+    font-family: Roboto, Open Sans, sans-serif;
+    font-size: 1.2em;
+    color: black;
+    background: white;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid purple;
+    border-radius: 0.5rem;
+    background-color: lightgray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.1rem;
+    margin: 0.5rem;
+    border: 1px solid purple;
+    padding: 0.5rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: purple;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 0.5rem;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+.form-item{
+    display:grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+footer {
+    text-align: center;
+}
