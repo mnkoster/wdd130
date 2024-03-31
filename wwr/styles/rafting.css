@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&Open+Sans&display=swap');
 
-/* adding a comment */
-
 * {
     margin: 0;
     padding: 0;
@@ -273,7 +271,6 @@ input[type="text"], input[type="email"] {
 .form-item.column1 input[type="radio"], .form-item.column1 label {
     display: inline-block;
     margin-bottom: 0.5rem;
-    /* vertical-align: middle; */
 }
 
 iframe {
