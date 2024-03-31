@@ -141,7 +141,7 @@ footer {
 }
 
 .sociallinks {
-    display: flex-block;
+    display: flex;
     max-width: 100%;
 }
 
@@ -169,7 +169,7 @@ section {
 }
 
 .grid {
-    display: flex-block;
+    display: flex;
 }
 
 .adventure {
