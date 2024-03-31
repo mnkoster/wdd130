@@ -239,11 +239,11 @@ button {
 
 button:hover {
     background-color: var(--secondary-color);
+    color: white;
 }
 
 .form-item {
     display: grid;
-    /* align-items: center; */
 }
 
 .column1 {
