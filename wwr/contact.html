@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Milea Koster's Contact Us page for the rafting website project made in WDD130 through BYU-Pathway.">
+        <meta name="author" content="Milea Koster">
+        <title>Dry Oar Contact Us Page</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <nav class="grid">
+                <img src="images/logo.png" alt="Rafting Site Logo">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <section>
+                    <h1>Company Information</h1>
+                    <p>Address: 1234 Fun Alley, Provo, UT 18930</p>
+                    <p>Phone number: 123-456-7890</p>
+                    <p>Email: wwr@gmail.com</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3045.1559773110257!2d-111.65817225000002!3d40.25006475000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1234%20fun%20alley%2C%20provo%2C%20ut!5e0!3m2!1sen!2sus!4v1711840287996!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </div>
+            <section>
+                <h2>Employee Information</h2>
+                <article class="employees">
+                    <figure>
+                        <img src="images/employee1.png" alt="Rafting Image 1">
+                        <figcaption>Gordon Sawyer</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee2.png" alt="Rafting Image 2">
+                        <figcaption>Jonathon Sawyer</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee3.png" alt="Rafting Image 3">
+                        <figcaption>Jane Sawyer</figcaption>
+                    </figure>
+                </article>
+            </section>
+            <form>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <div class="form-item column2">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                    <div class="form-item column1">
+                        <label for="purpose">Purpose of Comment:</label><br>
+                        <input type="radio" id="purpose1" name="purpose" value="General Inquiry">
+                            <label for="option1">General Inquiry</label><br>
+                        <input type="radio" id="purpose2" name="purpose" value="Reservation Question">   
+                            <label for="option2">Reservation Question</label><br>
+                        <input type="radio" id="purpose3" name="purpose" value="Website Suggestion">   
+                            <label for="option3">Website Suggestion</label>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="phone">Message:</label>              
+                        <textarea id="message" name="message" placeholder="Type comment here"></textarea>
+                    </div>
+                    <div class="form-item column1">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Please subscribe me to the monthly newsletter</input>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Form</button>
+            </form>
+        </main>
+        <footer>
+            <nav class="sociallinks">
+                <p>&#169; 2024 || Dry Oar || Milea Koster</p>
+                <a href="https://app.moqups.com/cXiMur2JaBuksGw0BjN7Rcj6IvlDDNIq/view/page/ad64222d5" alt="Contact Us Page Wireframe Image">
+                    <img src="images/wireframe.png" alt="Wireframe">
+                </a>                
+                <a href="https://facebook.com">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.png" alt="Facebook">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.png" alt="Facebook">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>

@@ -7,7 +7,7 @@
 
 :root {
     --primary-color: #536e47;
-    --secondary-color: #A6808C;
+    --secondary-color: #744956;
     --accent1-color: #B7D3F2;
     --accent2-color: #CFCFC4;
 
@@ -39,13 +39,13 @@ header {
     max-width: 100%;
     padding: 20px;
     background-color: var(--accent1-color);
-    display: grid;
+    display: block;
     margin: 0 auto;
     justify-content: center;
 }
 
 p {
-    padding: 25px;
+    padding: 5px;
 }
 
 img {
@@ -57,10 +57,10 @@ img {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 2.2vw;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    max-width: fit-content;
+    max-width: 100%;
 }
 
 nav a {
@@ -70,7 +70,7 @@ nav a {
     text-decoration: none;
     padding: 1rem;
     width: auto;
-    height: 100%;
+    height: 100px;
     box-sizing: border-box;
 }
 
@@ -133,29 +133,30 @@ footer {
     position: relative;
     bottom: 0;
     max-width: 100%;
+    height: 100%;
     padding: 20px;
     background-color: var(--accent1-color);
     margin: 0 auto;
+    display: block;
 }
 
 .sociallinks {
-    display: grid;
-    align-items: right;
+    display: flex-block;
     max-width: 100%;
-    grid-template-columns: 64% 12% 12% 12%;
-    justify-content: right;
 }
 
 .sociallinks img {
+    aspect-ratio: 1 / 1;
+    width: 50px;
     float: right;
     position: relative;
-    justify-content: right;
 }
 
 .sociallinks p {
     margin: 0;
     font-size: 1.3vw;
-    text-align: right;
+    text-align: center;
+    flex: 1;
 }
 
 /* Week 04 Updates */
@@ -168,8 +169,7 @@ section {
 }
 
 .grid {
-    display: grid;
-    justify-content: center;
+    display: flex-block;
 }
 
 .adventure {
@@ -190,4 +190,107 @@ figure img {
 figcaption {
     order: 2;
     text-align: center;
+}
+
+
+/* Week 05 Adjustments */
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.1rem;
+    margin: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    padding: 0.5rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3em;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 0.5rem;
+    background-color: var(--accent2-color);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.form-item {
+    display: grid;
+    /* align-items: center; */
+}
+
+.column1 {
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 2fr 8fr;
+}
+
+.column3 {
+    flex-direction: column;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+input[type="text"], input[type="email"] {
+    margin: 0.25rem;
+}
+
+.form-item.column1 input[type="radio"], .form-item.column1 label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    /* vertical-align: middle; */
+}
+
+iframe {
+    margin-left: 5px;
+    max-width: 96%;
+}
+
+.employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.employees img {
+    padding-left: 2%;
+    width: 96%;
+    height: 200px;
+    aspect-ratio: 1 / 1;
+    order: 1;
+
 }
