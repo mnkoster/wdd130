@@ -322,6 +322,12 @@ iframe {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .home-grid img {
