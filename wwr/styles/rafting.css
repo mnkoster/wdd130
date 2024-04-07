@@ -35,6 +35,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+h2{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
 header {
     max-width: 100%;
     padding: 20px;
@@ -119,6 +124,13 @@ nav a:hover {
     left: 40%;
 }
 
+.hero h2 {
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    left: 30%;
+}
+
 .herodiv p {
     position: absolute;
     padding-left: 5%;
@@ -166,6 +178,8 @@ section {
     margin-bottom: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .grid {
@@ -201,6 +215,8 @@ form {
     padding: 0.5rem;
     border: 1px solid var(--secondary-color);
     display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 fieldset {
@@ -235,6 +251,7 @@ button {
     border-radius: 0.5rem;
     padding: 0.75rem;
     font-size: 1.1rem;
+    max-width: 100%;
 }
 
 button:hover {
@@ -291,5 +308,53 @@ iframe {
     height: 200px;
     aspect-ratio: 1 / 1;
     order: 1;
+}
 
+/* Final Project Additions */
+
+.column2-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.home-grid img {
+    padding-left: 15%;
+    width: 70%;
+    aspect-ratio: 2 / 1;
+}
+
+.home-grid p {
+    padding: 5px;
+}
+
+.trips {
+    width: 100%;
+}
+
+.trips img{
+    max-width: 50%;
+    padding-left: 25%;
+}
+
+table {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.column-headers {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+th {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-top: 0.2rem;
 }
